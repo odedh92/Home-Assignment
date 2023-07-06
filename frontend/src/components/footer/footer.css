@@ -1,0 +1,21 @@
+.links{
+    display: flex;
+    width: 40%;
+    position: absolute;
+    bottom: 0;
+   right: 0;
+}
+.links article {
+    padding: 1rem;
+    color: #cecece;
+}
+a{
+    color: #cecece; 
+    text-decoration: none;
+}
+
+@media only screen and (max-width:1080px) { 
+    .links{
+        display: none;
+    }
+}
